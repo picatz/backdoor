@@ -2,7 +2,7 @@
 
 Demo for backdooring golang's `http.DefaultServeMux`
 
-> **Note:** To see an example victim scenario check out [`backdoor-victim`](https://github.com/picatz/backdoor)
+> **Note:** To see an example victim scenario check out [`backdoor-victim`](https://github.com/picatz/backdoor-victim)
 
 ## Inspiration
 
