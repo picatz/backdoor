@@ -14,7 +14,7 @@ Demo for backdooring golang's `http.DefaultServeMux`
 
 To take advantage of this feature, this is a demo of a package that registers a naughty route in `http.DefaultServeMux` located at `/backdoor` which serves up environemnt variables. This could easily exec commands, serve up files or directories and other nefarious business.
 
-I think the main advantage to this attack is that it can be made *real sneaky-like*. However, it's probably no more impressive than other third-party library attacks.
+I think the main advantage to this attack is that it can be made *real sneaky-like*. Though it's probably no more impressive than other third-party library attacks.
 
 However, the network traffic associated with this kind of backdoor can more easily blend-in to normal process behavior which can be an advantage for attackers not looking to spawn other connections/processes which can be easily caught because it may go outside the lines of "expected" behavior by tuned IPS/IDS systems.
 
