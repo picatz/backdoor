@@ -16,7 +16,7 @@ func init() {
 }
 
 // FakeFunctionality provides a function that does nothing, but is as a wonky
-//  example of why someone might use this code as a depency in the first place.
+// example of why someone might use this code as a depency in the first place.
 //
 // No code is best code, right?
 func FakeFunctionality() {
